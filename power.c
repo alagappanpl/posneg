@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
 int exp,base;
 int ans=1;
@@ -11,7 +11,6 @@ while(exp!=0)
 {
 ans=base*ans;
 exp--;
-
 }
 printf("%d",ans);
 }
